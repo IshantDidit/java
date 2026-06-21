@@ -24,6 +24,9 @@ public class LinkListExample {
         values.add(52);
         values.add(65);
         values.removeIf(x -> x % 2==0 );
+        for (Integer value:values){
+            System.out.println(value);
+        }
 
 
     }
